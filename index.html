@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Limonium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+    <link rel="shortcut icon" type="image/jpeg" href="img/icon.jpeg"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li class="has-submenu"><a href="#projects">Réalisations</a>
+            <ul class="submenu">
+              <li><a href="pages\minecraft.html">Serv Minecraft</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Le reste de votre contenu ici -->
+
+    <div id="home" class="slider">
+      <img src="img/slider1.png" class="slider-background" alt="Slider Image">
+      <div class="slider-content">
+        <h1>Limonium</h1>
+        <p>Bienvenue :)</p>
+      </div>
+    </div>
+
+    <div id="about" class="section">
+      <div class="boxed">
+        <div class="flex">
+          <div class="w40">
+            <h2>À propos</h2>
+          </div>
+          <div class="w60">
+            Ceci est mon site internet, il n'y a pas grand-chose à voir pour le moment, mais je suis content d'avoir mon propre site.
+            Pour le moment, vous pouvez voir comment installer et configurer votre MC pour vous connecter au serveur. Volontairement, je ne mets pas l'IP de connexion.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="section dark">
+      <div class="boxed text-center">
+        <h2>Mes réalisations</h2>
+        <div class="flex wrap gap20 space-between">
+          <div class="w32 realisation">
+            <a href="pages\minecraft.html">
+              <img src="img/Minecraft.jpeg" alt="">
+              <h3>Serveur Minecraft</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="section">
+      <div class="boxed text-center">
+        <h2>Contactez-moi</h2>
+        <div class="div flex space-between">
+          <div class="w32 contact">
+            <span class="material-icons icon">mail</span>
+            <span class="label">E-mail</span>
+            <span class="value">limonium.site@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
