@@ -1,10 +1,11 @@
-Site internet statique, entièrement fait en HTML / CSS. 
-Je le mets à disposition pour ceux qui en auraient besoin. 
-C'est un site qui était autohébergé, donc pour limiter les accès indésirables était volontairement simple et en HTML.
-C'est une maquette réalisée pour un petit site que j'avais sur la présentation d'un serveur Minecraft auto-hébergé également. 
-Plus rien n'est accessible aujourd'hui. Mais le site est disponible ici.
-(si j'y pense, je vous mettrai des infos sur mon Home-Lab et la façon d'auto-héberger un site internet et de le sécuriser
-*Certificat SSL.
-** Routage.
-*** Limitation d'accès serveur.
-**** Protection de données et gestion d'Apache.
+Site Internet Statique (HTML/CSS)
+Ce site est une maquette statique, entièrement réalisée en HTML et CSS, que je mets à disposition de ceux qui pourraient en avoir besoin. Initialement autohébergé, il était conçu de manière volontairement simple afin de limiter les accès indésirables tout en conservant une approche pratique et fonctionnelle.
+
+Il s'agissait d'un site pour la présentation d'un serveur Minecraft autohébergé, bien que ce projet ne soit plus accessible aujourd'hui. Néanmoins, vous pouvez toujours consulter la maquette ici.
+
+Si cela vous intéresse, je compte partager prochainement des informations sur la manière de mettre en place un Home-Lab et d'auto-héberger un site web, tout en le sécurisant correctement. Voici quelques points que je compte aborder :
+
+Certificat SSL : Mise en place d'un certificat SSL pour garantir une connexion sécurisée.
+Routage : Techniques de routage pour l'acheminement correct du trafic réseau vers le serveur.
+Limitation d'accès serveur : Stratégies pour restreindre l'accès aux utilisateurs autorisés uniquement.
+Protection des données & gestion d'Apache : Pratiques pour sécuriser les données et configurer Apache en toute sécurité.
